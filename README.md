@@ -15,4 +15,5 @@ notes: Change the port number according to your environment.<br>
 If you want to change the installation settings, do not perform "4. Install Exastro IT Automation" and follow the procedure below.
 1. `docker exec -i -t exastro01` 
 1. `vi ita_answers.txt`
-1. [See the link manual for how to modify the answer file](https://exastro-suite.github.io/it-automation-docs/asset/Learn/ITA-online-install_en.pdf)
+notes:[See the link manual(3.5 Configuration) for how to modify the answer file](https://exastro-suite.github.io/it-automation-docs/asset/Learn/ITA-online-install_en.pdf)
+1.sh ita_builder_online.sh
