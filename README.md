@@ -40,8 +40,8 @@ ita_directory:/exastro<br>
 
 #Select language. ("en_US" or "ja_JP")<br>
 #e.g) ita_language:ja_JP<br>
-ita_language:ja_JP(image name : X.X.X-ja)<br>
-ita_language:ja_JP(image name : X.X.X-ja)<br>
+ita_language:en_US(Dockerfile-X.X.X-en)<br>
+ita_language:ja_JP(Dockerfile-X.X.X-ja)<br>
 
 #Select Operation System. ("RHEL7" or "RHEL8")<br>
 #e.g) ita_os:RHEL8<br>
