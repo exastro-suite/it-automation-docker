@@ -21,9 +21,7 @@ If you want to change the installation settings, do not perform "4. Install Exas
 # Exastro ITAutomation Installation settings<br>
 The installation settings listed in the docker file.<br>
 Base Image :CentOS8<br>
-language:<br>
-English (image name : X.X.X-en)<br>
-Japanese (imagename : X.X.X-ja)<br>
+language:English or Japanese<br>
 DB settings db_name : ita_db<br>
 db_root_password : ita_root_password<br>
 db_username : ita_db_user<br>
