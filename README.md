@@ -18,3 +18,42 @@ If you want to change the installation settings, do not perform "4. Install Exas
 [notes:See the link manual(3.5 Configuration) for how to modify the answer file](https://exastro-suite.github.io/it-automation-docs/asset/Learn/ITA-online-install_en.pdf)<br>
 1. `sh ita_builder_online.sh`<br>
 
+# Exastro ITAutomation Installation settings<br>
+The installation settings listed in the docker file.<br>
+Base Image :CentOS8<br>
+language:<br>
+English (image name : X.X.X-en)<br>
+Japanese (imagename : X.X.X-ja)<br>
+DB settings db_name : ita_db<br>
+db_root_password : ita_root_password<br>
+db_username : ita_db_user<br>
+db_password : ita_db_password<br>
+#Select install mode. ("Install" or "Uninstall")
+# e.g) install_mode:Install
+install_mode:Install
+
+#Enter install directory.
+# e.g) ita_directory:/exastro/exastro
+ita_directory:/exastro
+
+# Select language. ("en_US" or "ja_JP")
+# e.g) ita_language:ja_JP
+ita_language:ja_JP
+
+# Select Operation System. ("RHEL7" or "RHEL8")
+# e.g) ita_os:RHEL8
+ita_os:RHEL8
+
+# Enter the MariaDB root user's password
+# e.g) db_root_password:sample_root_passwordsample_root_password
+db_root_password:sample_root_password
+
+# Decide the database name, username, and password for ITA.
+# e.g) db_name:sample_db_namesample_db_name
+db_name:sample_db_name
+# e.g) db_username:sample_db_usernamesample_db_username
+db_username:sample_db_username
+# e.g) db_password:sample_db_passwordsample_db_password
+db_password:sample_db_password
+
+# Select the target you need to install.
