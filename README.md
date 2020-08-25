@@ -56,7 +56,7 @@ db_root_password:sample_root_password
 db_name:sample_db_name
 #e.g) db_username:sample_db_usernamesample_db_username
 db_username:sample_db_username
-# e.g) db_password:sample_db_passwordsample_db_password
+#e.g) db_password:sample_db_passwordsample_db_password
 db_password:sample_db_password
 
 #Select the target you need to install.
