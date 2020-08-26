@@ -56,4 +56,4 @@ db_username:ita_db_user
 #e.g) db_password:ita_db_passwordsample_db_password
 db_password:ita_db_password
 
-# Select the target you need to install.
+#Select the target you need to install.
