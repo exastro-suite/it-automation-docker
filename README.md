@@ -35,7 +35,7 @@ ita_directory:/exastro<br>
 
 #Select language. ("en_US" or "ja_JP")<br>
 #e.g) ita_language:ja_JP<br>
-ita_language:ja_JP<br>
+ita_language:ja_JP()<br>
 
 #Select Operation System. ("RHEL7" or "RHEL8")<br>
 #e.g) ita_os:RHEL8<br>
