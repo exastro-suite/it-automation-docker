@@ -23,7 +23,8 @@ If you want to change the installation settings, do not perform "4. Install Exas
 
 # Exastro ITAutomation Installation settings<br>
 If you use this Dockerfile, the following "ita_answers.txt" will be set.<br>
-*ita_answers.txt*
+<br>
+**ita_answers.txt**<br>
 #Select install mode. ("Install" or "Uninstall")<br>
 #e.g) install_mode:Install<br>
 install_mode:Install<br>
