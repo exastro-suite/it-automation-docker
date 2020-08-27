@@ -27,33 +27,33 @@ db_root_password : ita_root_password<br>
 db_username : ita_db_user<br>
 db_password : ita_db_password<br>
 
-# ita_answers.txt
-#Select install mode. ("Install" or "Uninstall")
-#e.g) install_mode:Install
-install_mode:Install
+# ita_answers.txt<br>
+#Select install mode. ("Install" or "Uninstall")<br>
+#e.g) install_mode:Install<br>
+install_mode:Install<br>
 
-#Enter install directory.
-#e.g) ita_directory:/exastro
-ita_directory:/exastro
+#Enter install directory.<br>
+#e.g) ita_directory:/exastro<br>
+ita_directory:/exastro<br>
 
-#Select language. ("en_US" or "ja_JP")
-#e.g) ita_language:ja_JP
-ita_language:ja_JP
+#Select language. ("en_US" or "ja_JP")<br>
+#e.g) ita_language:ja_JP<br>
+ita_language:ja_JP<br>
 
-#Select Operation System. ("RHEL7" or "RHEL8")
-#e.g) ita_os:RHEL8
-ita_os:RHEL8
+#Select Operation System. ("RHEL7" or "RHEL8")<br>
+#e.g) ita_os:RHEL8<br>
+ita_os:RHEL8<br>
 
-#Enter the MariaDB root user's password
-#e.g) db_root_password:ita_root_passwordsample_root_password
-db_root_password:ita_root_password
+#Enter the MariaDB root user's password<br>
+#e.g) db_root_password:ita_root_passwordsample_root_password<br>
+db_root_password:ita_root_password<br>
 
-#Decide the database name, username, and password for ITA.
-#e.g) db_name:ita_dbsample_db_name
-db_name:ita_db
-#e.g) db_username:ita_db_usersample_db_username
-db_username:ita_db_user
-#e.g) db_password:ita_db_passwordsample_db_password
-db_password:ita_db_password
+#Decide the database name, username, and password for ITA.<br>
+#e.g) db_name:ita_dbsample_db_name<br>
+db_name:ita_db<br>
+#e.g) db_username:ita_db_usersample_db_username<br>
+db_username:ita_db_user<br>
+#e.g) db_password:ita_db_passwordsample_db_password<br>
+db_password:ita_db_password<br>
 
-#Select the target you need to install.
+#Select the target you need to install.<br>
