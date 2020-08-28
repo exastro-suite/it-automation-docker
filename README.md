@@ -7,11 +7,11 @@ Notes: Exastro ITAutomation is not installed just by building this dockerfile.[D
 1. Build Docker Image<br>
 English ： `cd it-automation-docker/1.5.0-en`<br>
 Japanese ： `cd it-automation-docker/1.5.0-en`<br>
-`docker image build -t exastro/it-automatio:tagname .`<br>
+`docker image build -t exastro/it-automation:tagname .`<br>
 1. run container <br>
 `docker run --privileged -d -p 8080:80 -p 10443:443 --name exastro01 exastro/it-automation:tagname`<br>
 Notes: Change the port number according to your environment.<br>
-       If you want to change the installation settings, please do the following "How to change installation settings".<br>
+       If you want to change the installation settings, please follow “How to change installation settings” in below.<br>
 1. Install Exastro ITAutomation<br>
 `docker exec -i -t exastro01  sh ita_builder_online.sh`<br>
 # How to change installation settings<br>
