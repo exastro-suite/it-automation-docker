@@ -9,7 +9,7 @@ English ： `cd it-automation-docker/1.5.0-en`<br>
 Japanese ： `cd it-automation-docker/1.5.0-en`<br>
 `docker image build -t exastro/it-automation:tagname .`<br>
 1. run container <br>
-`docker run --privileged -d -p 8080:80 -p 10443:443 --name exastro01 exastro/it-automation:tagname`<br>
+`docker run --privileged --add-host=exastro-it-automation:127.0.0.1 -d -p 8080:80 -p 10443:443 --name exastro01 exastro/it-automation:tagname`<br>
 Notes: Change the port number according to your environment.<br>
        If you want to change the installation settings, please follow “How to change installation settings” in below.<br>
 1. Install Exastro ITAutomation<br>
