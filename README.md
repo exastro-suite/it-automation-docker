@@ -3,23 +3,23 @@ This Dockerfile provides the Exastro ITAutomation installation environment (all-
 Notes: Exastro ITAutomation is not installed just by building this dockerfile.[Download the installed image from Docker-Hub](https://hub.docker.com/r/exastro/it-automation/).<br>
 # How to build Exastro ITAutomation in a container
 1. Download the required version of Dockerfile<br>
-`$ git clone https://github.com/exastro-suite/it-automation-docker.git`<br>
+`# git clone https://github.com/exastro-suite/it-automation-docker.git`<br>
 1. Build Docker Image<br>
-English ： `cd it-automation-docker/1.5.0-en`<br>
-Japanese ： `cd it-automation-docker/1.5.0-en`<br>
-`$ sudo docker image build -t exastro/it-automation:tagname .`<br>
+English ： `# cd it-automation-docker/1.5.0-en`<br>
+Japanese ： `# cd it-automation-docker/1.5.0-en`<br>
+`# sudo docker image build -t exastro/it-automation:tagname .`<br>
 1. run container <br>
-`$ sudo docker run --privileged --add-host=exastro-it-automation:127.0.0.1 -d -p 8080:80 -p 10443:443 --name exastro01 exastro/it-automation:tagname`<br>
+`# docker run --privileged --add-host=exastro-it-automation:127.0.0.1 -d -p 8080:80 -p 10443:443 --name exastro01 exastro/it-automation:tagname`<br>
 Notes: Change the port number according to your environment.<br>
        If you want to change the installation settings, please follow “How to change installation settings” in below.<br>
 1. Install Exastro ITAutomation<br>
-`$ sudo docker exec -i -t exastro01  sh ita_builder_online.sh`<br>
+`# docker exec -i -t exastro01  sh ita_builder_online.sh`<br>
 # How to change installation settings<br>
 If you want to change the installation settings, do not perform "4. Install Exastro IT Automation" and follow the procedure below.
-1. `$ sudo docker exec -i -t exastro01 /bin/bash` <br>
-1. `$ sudo vi ita_answers.txt`<br>
+1. `# docker exec -i -t exastro01 /bin/bash` <br>
+1. `# vi ita_answers.txt`<br>
 [notes:See the link manual(3.5 Configuration) for how to modify the answer file](https://exastro-suite.github.io/it-automation-docs/asset/Learn/ITA-online-install_en.pdf)<br>
-1. `$ sudo sh ita_builder_online.sh`<br>
+1. `# sh ita_builder_online.sh`<br>
 
 # Exastro ITAutomation Installation settings<br>
 If you use this Dockerfile, the following "ita_answers.txt" will be set.<br>
