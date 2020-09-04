@@ -2,8 +2,9 @@
 [English](README.md)| 日本語<br>
 <br>
 # Exastro ITAutomation docker <br>
-This Dockerfile provides the Exastro ITAutomation installation environment (all-in-one).<br>
-Notes: Exastro ITAutomation is not installed just by building this dockerfile.[Download the installed image from Docker-Hub](https://hub.docker.com/r/exastro/it-automation/).<br>
+このDockerfileは、Exastro ITAutomation（オールインワン）のインストール環境を提供します。.<br>
+注釈: Exastro ITAutomationは、このdockerfileをビルドするだけではインストールされません。<br>
+[Docker-Hubからインストールされたイメージをダウンロードしてください。](https://hub.docker.com/r/exastro/it-automation/).<br>
 # How to build Exastro ITAutomation in a container
 1. Download the required version of Dockerfile<br>
 `# git clone https://github.com/exastro-suite/it-automation-docker.git`<br>
