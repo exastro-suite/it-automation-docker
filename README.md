@@ -1,4 +1,4 @@
-language：English | [日本語](README.ja.md)<br>
+English | [日本語](README.ja.md)<br>
 <br>
 # Exastro ITAutomation docker <br>
 This Dockerfile provides the Exastro ITAutomation installation environment (all-in-one).<br>
