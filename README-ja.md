@@ -58,3 +58,13 @@ db_username:ita_db_user<br>
 db_password:ita_db_password<br>
 
 #Select the target you need to install.<br>
+#yes : need<br>
+#no  : no need<br>
+ita_base:yes<br>
+material:no<br>
+createparam:yes<br>
+hostgroup:yes<br>
+ansible_driver:yes<br>
+cobbler_driver:no<br>
+openstack_driver:no<br>
+terraform_driver:no<br>
