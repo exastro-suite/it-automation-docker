@@ -4,15 +4,15 @@
 # Exastro ITAutomation docker <br>
 このDockerfileは、Exastro ITAutomation（オールインワン）のインストール環境を提供します。.<br>
 注釈: Exastro ITAutomationは、このdockerfileをビルドするだけではインストールされません。<br>
-[Docker-Hubからインストールされたイメージをダウンロードしてください。](https://hub.docker.com/r/exastro/it-automation/).<br>
+[Docker-Hubからインストールイメージをダウンロードしてください。](https://hub.docker.com/r/exastro/it-automation/).<br>
 # How to build Exastro ITAutomation in a container
-1. Download the required version of Dockerfile<br>
+1. Dockerfileをダウンロードして下さい。<br>
 `# git clone https://github.com/exastro-suite/it-automation-docker.git`<br>
-1. Build Docker Image<br>
+1. 言語を選択しDockerイメージを作成してください。<br>
 English ： `# cd it-automation-docker/1.5.0-en`<br>
 Japanese ： `# cd it-automation-docker/1.5.0-en`<br>
 `# docker image build -t exastro/it-automation:tagname .`<br>
-1. run container <br>
+1. コンテナを実行して下さい。 <br>
 `# docker run --privileged --add-host=exastro-it-automation:127.0.0.1 -d -p 8080:80 -p 10443:443 --name exastro01 exastro/it-automation:tagname`<br>
 Notes: Change the port number according to your environment.<br>
        If you want to change the installation settings, please follow “How to change installation settings” in below.<br>
