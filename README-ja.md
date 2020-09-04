@@ -26,7 +26,7 @@ Japanese ： `# cd it-automation-docker/1.5.0-en`<br>
 1. `# sh ita_builder_online.sh`<br>
 
 # Exastro ITAutomation Installation settings<br>
-If you use this Dockerfile, the following "ita_answers.txt" will be set.<br>
+このDockerfileを使用すると、以下の「ita_answers.txt」が設定されます。<br>
 <br>
 **ita_answers.txt**<br>
 #Select install mode. ("Install" or "Uninstall")<br>
