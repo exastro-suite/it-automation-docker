@@ -1,5 +1,5 @@
 FROM centos:8
-ENV LC_ALL=C.UTF-8
+RUN cp /usr/share/zoneinfo/Japan /etc/localtime
 WORKDIR /etc
 RUN sed -i -e 's/LANG="en_US.UTF-8"/LANG="C.utf-8"/g' locale.conf
 RUN dnf -y upgrade
@@ -10,7 +10,7 @@ WORKDIR /home
 RUN wget -P /home https://github.com/exastro-suite/it-automation/archive/v1.5.0.tar.gz
 RUN tar zxf /home/v1.5.0.tar.gz
 RUN find /home/it-automation-1.5.0/ita_install_package/ -type f -name *.sh | xargs chmod 755
-WORKDIR /home/it-automation-1.5.0/ita_install_package/install_scripts/ 
+WORKDIR /home/it-automation-1.5.0/ita_install_package/install_scripts/
 RUN sed -i -e "s/linux_os:/linux_os:CentOS8/g" ita_builder_setting.txt \
 && sed -i -e "s/ita_directory:/ita_directory:\/exastro/g" ita_answers.txt \
 && sed -i -e "s/ita_language:en_US/ita_language:ja_JP/g" ita_answers.txt \
