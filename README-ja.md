@@ -12,7 +12,7 @@
 1. 言語を選択しDockerイメージを作成してください。<br>
 English ： `# cd it-automation-docker/X.X.X-en`<br>
 Japanese ： `# cd it-automation-docker/X.X.X-ja`<br>
-1.Dockerイメージをビルドしてください。<br>
+1. Dockerイメージをビルドしてください。<br>
 `# docker image build -t exastro/it-automation:X.X.X-ja .`<br>
 1. コンテナを実行して下さい。 <br>
 `# docker run --privileged --add-host=exastro-it-automation:127.0.0.1 -d -p 8080:80 -p 10443:443 --name exastro01 exastro/it-automation:X.X.X-ja`<br>
