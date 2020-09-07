@@ -15,7 +15,7 @@ Japanese ： `# cd it-automation-docker/1.5.0-en`<br>
 1. コンテナを実行して下さい。 <br>
 `# docker run --privileged --add-host=exastro-it-automation:127.0.0.1 -d -p 8080:80 -p 10443:443 --name exastro01 exastro/it-automation:tagname`<br>
 注釈：ご使用の環境に応じてポート番号を変更してください。<br>
-    インストール時の設定を変更する場合は、以下の「インストール設定の変更方法」を実施して下さい。<br>
+    インストール時の設定を変更する場合は、以下の「How to change installation settings」を実施して下さい。<br>
 1. Exastro ITAutomationをインストールして下さい。<br>
 `# docker exec -i -t exastro01  sh ita_builder_online.sh`<br>
 # How to change installation settings<br>
