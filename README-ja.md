@@ -20,7 +20,7 @@ Japanese ： `# cd it-automation-docker/X.X.X-ja`<br>
 1. Exastro ITAutomationをインストールして下さい。<br>
 `# docker exec -i -t exastro01  sh ita_builder_online.sh`<br>
 # How to change installation settings<br>
-インストール時の設定を変更したい場合は、「4。Exastro IT Automationのインストール」を行わず、以下の手順で行ってください。
+インストール時の設定を変更したい場合は、「5.Exastro ITAutomationをインストール」を行わず、以下の手順で行ってください。
 1. `# docker exec -i -t exastro01 /bin/bash` <br>
 1. `# vi ita_answers.txt`<br>
 [注意：ita_answers.txtの修正方法については、リンクのマニュアル（3.8 環境構築）を参照してください。](https://exastro-suite.github.io/it-automation-docs/asset/Learn_ja/ITA-online-install_ja.pdf)<br>
