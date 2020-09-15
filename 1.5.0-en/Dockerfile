@@ -9,7 +9,6 @@ RUN sed -i -e "s/#   PasswordAuthentication yes/PasswordAuthentication yes/g" ss
 WORKDIR /home
 RUN wget -P /home https://github.com/exastro-suite/it-automation/archive/v1.5.0.tar.gz
 RUN tar zxf /home/v1.5.0.tar.gz
-RUN find /home/it-automation-1.5.0/ita_install_package/ -type f -name *.sh | xargs chmod 755
 WORKDIR /home/it-automation-1.5.0/ita_install_package/install_scripts/ 
 RUN sed -i -e "s/linux_os:/linux_os:CentOS8/g" ita_builder_setting.txt \
 && sed -i -e "s/ita_directory:/ita_directory:\/exastro/g" ita_answers.txt \
