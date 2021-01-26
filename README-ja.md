@@ -18,13 +18,19 @@ Japanese ： `# cd it-automation-docker/X.X.X-ja`<br>
 `# docker run --privileged --add-host=exastro-it-automation:127.0.0.1 -d -p 8080:80 -p 10443:443 --name exastro01 exastro/it-automation:X.X.X-ja`<br>
    注意：インストール設定を変更する場合は、以下の「How to change installation settings」を実施して下さい。<br>
 1. Exastro ITAutomationインストール<br>
+v1.5.0<br>
 `# docker exec -i -t exastro01  sh ita_builder_online.sh`<br>
+v1.6.0~<br>
+`# docker exec -i -t exastro01  sh ita_installer.sh`<br>
 # How to change installation settings<br>
 インストール時の設定を変更したい場合は、「5.Exastro ITAutomationインストール」を行わず、以下の手順で行ってください。
 1. `# docker exec -i -t exastro01 /bin/bash` <br>
 1. `# vi ita_answers.txt`<br>
 [注意：ita_answers.txtの修正方法については、リンクのマニュアル（3.8 環境構築）を参照してください。](https://exastro-suite.github.io/it-automation-docs/asset/Learn_ja/ITA-online-install_ja.pdf)<br>
+v1.5.0<br>
 1. `# sh ita_builder_online.sh`<br>
+v1.6.0~<br>
+1.`# sh ita_installer.sh`<br>
 
 # Exastro ITAutomation Installation settings<br>
 このDockerfileを使用すると、以下の「ita_answers.txt」が設定されます。<br>
