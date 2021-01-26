@@ -27,10 +27,10 @@ v1.6.0~<br>
 1. `# docker exec -i -t exastro01 /bin/bash` <br>
 1. `# vi ita_answers.txt`<br>
 [注意：ita_answers.txtの修正方法については、リンクのマニュアル（3.8 環境構築）を参照してください。](https://exastro-suite.github.io/it-automation-docs/asset/Learn_ja/ITA-online-install_ja.pdf)<br>
-v1.5.0<br>
-1. `# sh ita_builder_online.sh`<br>
+1. v1.5.0<br>
+`# sh ita_builder_online.sh`<br>
 v1.6.0~<br>
-1.`# sh ita_installer.sh`<br>
+`# sh ita_installer.sh`<br>
 
 # Exastro ITAutomation Installation settings<br>
 このDockerfileを使用すると、以下の「ita_answers.txt」が設定されます。<br>
