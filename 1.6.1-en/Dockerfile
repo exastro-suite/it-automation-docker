@@ -3,8 +3,6 @@ WORKDIR /etc
 RUN dnf -y upgrade
 RUN dnf -y install sudo crontabs wget openssh-server openssh-clients yum-utils diffutils
 RUN sed -i -e 's/LANG="en_US.UTF-8"/LANG="C.utf-8"/g' locale.conf
-WORKDIR /etc/yum.repos.d
-RUN sed -i -e "s/enabled=0/enabled=1/g" CentOS-Linux-PowerTools.repo
 WORKDIR /root
 RUN wget -P /root https://github.com/exastro-suite/it-automation/archive/v1.6.1.tar.gz
 RUN tar zxf /root/v1.6.1.tar.gz
